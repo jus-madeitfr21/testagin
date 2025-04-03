@@ -1,0 +1,12 @@
+# Exported from Render on 2025-04-03T14:48:57Z
+databases:
+- name: marisas-db
+  databaseName: marisas_db
+  user: marisas_db_user
+  plan: free
+  region: oregon
+  ipAllowList:
+  - source: 0.0.0.0/0
+    description: everywhere
+  postgresMajorVersion: "16"
+version: "1"
